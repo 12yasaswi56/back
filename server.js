@@ -32,7 +32,6 @@ app.use(morgan('dev'));
 
 
 const allowedOrigins = [
-  'http://localhost:3000',
   'https://social-frontend-five.vercel.app',
   'https://vizzf.vercel.app'
 ];
