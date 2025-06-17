@@ -34,7 +34,8 @@ app.use(morgan('dev'));
 const allowedOrigins = [
   'https://enertransition.com',
   'https://social-frontend-five.vercel.app',
-  'https://vizzf.vercel.app'
+  'https://vizzf.vercel.app',
+  'http://localhost:3000'
 ];
 
 app.use(cors({
